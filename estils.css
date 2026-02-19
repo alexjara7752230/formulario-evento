@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+background-color: white;
+padding: 10px;
+}
+
+form {
+background: gray;
+padding: 50px;
+max-width: 600px;
+margin: auto;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input, select, textarea, button {
+width: 100%;
+padding: 7px;
+margin-top: 8px;
+}
+
+button {
+margin-top: 15px;
+background-color: #0400ff;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.error {
+color: red;
+font-size: 12px;
+}
+
+#mensajeError {
+color: green;
+font-weight: bold;
+margin-top: 10px;
+}
